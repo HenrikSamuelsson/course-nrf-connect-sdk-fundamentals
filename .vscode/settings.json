@@ -2,7 +2,8 @@
     "nrf-connect.topdir": "${nrf-connect.sdk:2.6.1}",
     "nrf-connect.applications": [
         "${workspaceFolder}\\lesson-1\\blinky",
-        "${workspaceFolder}\\lesson-2\\exercise-1"
+        "${workspaceFolder}\\lesson-2\\exercise-1",
+        "${workspaceFolder}\\lesson-2\\exercise-2"
     ],
     "[c]": {
         "editor.defaultFormatter": "xaver.clang-format"
