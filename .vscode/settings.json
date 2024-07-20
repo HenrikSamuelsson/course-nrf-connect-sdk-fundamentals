@@ -3,7 +3,8 @@
     "nrf-connect.applications": [
         "${workspaceFolder}\\lesson-1\\blinky",
         "${workspaceFolder}\\lesson-2\\exercise-1",
-        "${workspaceFolder}\\lesson-2\\exercise-2"
+        "${workspaceFolder}\\lesson-2\\exercise-2",
+        "${workspaceFolder}\\lesson-3\\exercise-1"
     ],
     "[c]": {
         "editor.defaultFormatter": "xaver.clang-format"
