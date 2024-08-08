@@ -1,15 +1,14 @@
 {
     "nrf-connect.topdir": "${nrf-connect.sdk:2.6.1}",
     "nrf-connect.applications": [
-        "${workspaceFolder}\\lesson-1\\blinky",
         "${workspaceFolder}\\lesson-2\\exercise-1",
         "${workspaceFolder}\\lesson-2\\exercise-2",
         "${workspaceFolder}\\lesson-3\\exercise-1",
         "${workspaceFolder}\\lesson-3\\exercise-2",
         "${workspaceFolder}\\lesson-4\\exercise-1",
         "${workspaceFolder}\\lesson-4\\exercise-2",
-        "${workspaceFolder}\\lesson-4\\exercise-3",
-        "${workspaceFolder}\\lesson-5\\exercise-1"
+        "${workspaceFolder}\\lesson-5\\exercise-1",
+        "${workspaceFolder}\\lesson-7\\exercise-1"
     ],
     "[c]": {
         "editor.defaultFormatter": "xaver.clang-format"
