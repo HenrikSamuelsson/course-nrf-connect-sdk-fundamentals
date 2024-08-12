@@ -9,7 +9,8 @@
         "${workspaceFolder}\\lesson-4\\exercise-2",
         "${workspaceFolder}\\lesson-5\\exercise-1",
         "${workspaceFolder}\\lesson-7\\exercise-1",
-        "${workspaceFolder}\\lesson-7\\exercise-3"
+        "${workspaceFolder}\\lesson-8\\exercise-1",
+        "${workspaceFolder}\\lesson-8\\exercise-2"
     ],
     "[c]": {
         "editor.defaultFormatter": "xaver.clang-format"
