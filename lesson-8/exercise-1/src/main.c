@@ -4,10 +4,10 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-#include <string.h>
 #include <zephyr/kernel.h>
 #include <zephyr/random/random.h>
 #include <zephyr/sys/printk.h>
+
 
 #define PRODUCER_STACKSIZE 512
 #define CONSUMER_STACKSIZE 512
@@ -39,8 +39,9 @@ void release_access(void) {
     available_instance_count++;
     printk("Resource given and available_instance_count = %d\n",
            available_instance_count);
+
     /* STEP 10.2 - Give semaphore after finishing access to resource */
-    k_sem_give(&instance_monitor_sem); 
+    k_sem_give(&instance_monitor_sem);
 }
 
 /* STEP 4 - Producer thread relinquishing access to instance */
@@ -63,7 +64,6 @@ void consumer(void) {
     }
 }
 
-// Define and initialize threads
 K_THREAD_DEFINE(producer_id, PRODUCER_STACKSIZE, producer, NULL, NULL, NULL,
                 PRODUCER_PRIORITY, 0, 0);
 
